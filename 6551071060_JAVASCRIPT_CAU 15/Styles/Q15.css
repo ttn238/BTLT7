@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.tab-container {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c7eb8e;
+}
+
+.tabs li {
+    float: left;
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: #4a90e2;
+    color: white;
+    border-right: 1px solid #fff;
+    transition: 0.3s;
+}
+
+.tabs li.active {
+    background-color: white;
+    color: #0000cc;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background: #fff;
+    border-top: none;
+    text-align: left;
+}
+
+.tab-content p {
+    margin: 0;
+}

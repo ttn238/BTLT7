@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#fileInfo {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    background: #e0ffe0;
+    padding: 10px;
+    border-radius: 5px;
+}

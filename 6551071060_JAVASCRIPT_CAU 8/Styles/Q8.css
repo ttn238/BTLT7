@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 40px;
+}
+
+input {
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    margin: 5px;
+}
+
+.operator {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operator:hover {
+    background-color: #bbb;
+}
+
+#calculate {
+    margin: 10px;
+    padding: 8px 20px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    cursor: pointer;
+}

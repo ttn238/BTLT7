@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Remove items from a dropdown list</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+  <form>
+    <select id="colorSelect">
+      <option>Red</option>
+      <option>Green</option>
+      <option>White</option>
+      <option>Black</option>
+    </select>
+    <input type="button" id="removeColor" value="Select and Remove">
+  </form>
+
+  <script>
+    $("#removeColor").click(function () {
+      $("#colorSelect option:selected").remove();
+    });
+  </script>
+</body>
+</html>

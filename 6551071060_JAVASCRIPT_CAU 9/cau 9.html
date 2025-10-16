@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiểm tra thông tin (jQuery Lab)</title>
+    <link rel="stylesheet" href="Styles/Q9.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Scripts/Q9.js"></script>
+</head>
+<body>
+    <h2>Biểu mẫu kiểm tra thông tin cá nhân</h2>
+
+    <form id="infoForm">
+        <label>Họ và tên*:
+            <input type="text" id="name">
+        </label>
+
+        <label>Giới tính*:
+            <input type="radio" name="sex" value="Nam">Nam
+            <input type="radio" name="sex" value="Nữ">Nữ
+        </label>
+
+        <label>Địa chỉ email*:
+            <input type="text" id="email">
+        </label>
+
+        <label>Ngày sinh (MM/DD/YYYY)*:
+            <input type="text" id="birthday">
+        </label>
+
+        <label>Mã bưu điện (ZIP - 5 số)*:
+            <input type="text" id="zip">
+        </label>
+
+        <div class="buttons">
+            <button type="button" id="clearBtn">Xóa</button>
+            <button type="button" id="finishBtn">Hoàn tất</button>
+        </div>
+
+        <div id="msgBox"></div>
+    </form>
+</body>
+</html>

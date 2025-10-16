@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title> Hiện textbox khi chọn Yes</title>
+    <link rel="stylesheet" href="Styles/Q12.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Scripts/Q12.js"></script>
+</head>
+<body>
+    <h2>Thông tin đăng ký</h2>
+
+    <div class="section">
+        <p>Bạn có Passport không?</p>
+        <label><input type="radio" name="passport" value="yes"> Yes</label>
+        <label><input type="radio" name="passport" value="no"> No</label>
+        <div id="passportBox" class="hidden">
+            <input type="text" placeholder="Nhập số Passport...">
+        </div>
+    </div>
+
+    <div class="section">
+        <p>Bạn có Credit Card không?</p>
+        <label><input type="radio" name="credit" value="yes"> Yes</label>
+        <label><input type="radio" name="credit" value="no"> No</label>
+        <div id="creditBox" class="hidden">
+            <input type="text" placeholder="Nhập số Credit Card...">
+        </div>
+    </div>
+</body>
+</html>

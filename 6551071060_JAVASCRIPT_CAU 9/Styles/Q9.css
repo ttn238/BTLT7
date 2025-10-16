@@ -1,0 +1,62 @@
+body {
+    font-family: Arial;
+    margin: 50px auto;
+    width: 400px;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#clearBtn {
+    background-color: lightcoral;
+    color: white;
+}
+
+#finishBtn {
+    background-color: lightgreen;
+    color: black;
+}
+
+#msgBox {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.success {
+    background-color: #d1ffd1;
+    color: green;
+}
+
+.error {
+    background-color: #ffd6d6;
+    color: red;
+}
